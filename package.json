@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server/index.js",
-    "test": "vitest run",
+    "test": "vitest",
     "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
     "start": "node server/index.js",
     "docker:up": "docker compose up --build -d",
