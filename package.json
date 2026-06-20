@@ -13,7 +13,8 @@
     "start": "node server/index.js",
     "docker:up": "docker compose up --build -d",
     "docker:down": "docker compose down",
-    "docker:logs": "docker compose logs -f app"
+    "docker:logs": "docker compose logs -f app",
+    "test" : "vitest run"
   },
   "dependencies": {
     "axios": "^1.6.2",
